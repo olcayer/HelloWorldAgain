@@ -1,0 +1,9 @@
+---
+applications:
+- name: Hello
+  host: Hello
+  buildpack: nodejs_buildpack
+  memory: 128M
+  command: node server
+
+
