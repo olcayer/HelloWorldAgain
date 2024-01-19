@@ -21,7 +21,7 @@ app.get('/weather', (req, res) =>{
     var request = require('request');
 var options = {
   'method': 'GET',
-  'url': 'https://api.openweathermap.org/data/2.5/weather?q=Kolkata&PUT YOUR API KEY&units=metric',
+  'url': 'https://api.openweathermap.org/data/2.5/weather?q=Kolkata&PUT YOUR APIKEY&units=metric',
   'headers': {
   }
 };
